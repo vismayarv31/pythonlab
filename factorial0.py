@@ -7,6 +7,6 @@ def fact(n):
     return n*fact(n-1)
 number=int(input("User Input:"))
 result=fact(number)
-print("The factorial of",number,"is",fact(number))
+print("The factorial of",number,"is",result)
  
       
